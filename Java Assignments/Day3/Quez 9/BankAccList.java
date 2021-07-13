@@ -7,7 +7,7 @@ public class BankAccList{
 
     public static void main(String[] args)
     {
-        //HashSet<SavingsAccount> myset = new HashSet<SavingsAccount>();
+        
         TreeSet<SavingsAccount> myset = new TreeSet<SavingsAccount>();
         SavingsAccount s1=new SavingsAccount(50000, 123, "Ram", true);
         SavingsAccount s2=new SavingsAccount(25000, 984, "Ravi", true);
@@ -18,8 +18,7 @@ public class BankAccList{
         myset.add(s3);
         myset.add(s2);
 
-        //List list = new ArrayList(myset);
-        //Collections.sort(list);
+     
         System.out.println(myset);
         for(SavingsAccount s:myset)
         {
